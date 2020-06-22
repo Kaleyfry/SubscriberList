@@ -61,4 +61,18 @@ public class Subscriber {
         this.userName = userName;
     }
 
+    public Date getSignedUp() {
+        return signedUp;
+    }
+
+    public void setSignedUp(Date signedUp) {
+        this.signedUp = signedUp;
+    }
+
+    @Override
+    public String toString() {
+        return "Subscriber [firstName=" + firstName + ", id=" + id + ", lastName=" + lastName + ", signedUp=" + signedUp
+                + ", userName=" + userName + "]";
+    }
+
 }
